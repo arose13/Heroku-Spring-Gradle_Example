@@ -5,7 +5,6 @@ import yahoofinance.YahooFinance;
 import yahoofinance.quotes.stock.StockQuote;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 /**
  * Created by Anthony on 9/11/2015.

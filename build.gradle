@@ -15,8 +15,10 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
+mainClassName = "Application"
+
 jar {
-    baseName = 'gs-rest-service'
+    baseName = 'spring-test-api'
     version = '0.1.0'
 }
 
@@ -25,7 +27,7 @@ repositories {
 }
 
 sourceCompatibility = 1.8
-targetCompatibility = 1.8
+//targetCompatibility = 1.8
 
 dependencies {
     testCompile 'junit:junit:4.11'
