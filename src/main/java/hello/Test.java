@@ -10,7 +10,7 @@ public class Test {
 
     private final long id;
     private final String content;
-    private final ArrayList<Integer> boobs;
+    private final ArrayList<Integer> numbers;
 
     public Test(long id, String content) {
         ArrayList<Integer> a = new ArrayList<>();
@@ -19,7 +19,7 @@ public class Test {
         }
         this.id = id;
         this.content = content;
-        this.boobs = a;
+        this.numbers = a;
     }
 
     public long getId() {
@@ -30,7 +30,7 @@ public class Test {
         return content;
     }
 
-    public ArrayList<Integer> getBoobs() {
-        return boobs;
+    public ArrayList<Integer> getNumbers() {
+        return numbers;
     }
 }
